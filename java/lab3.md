@@ -85,6 +85,71 @@ Write JUnit 5 tests (in a `OrderAnalyticsTest` class, with a `@BeforeEach` that 
 
 ---
 
+# Starter Skeleton
+
+:: left ::
+
+```java
+public class OrderAnalytics {
+
+    public double totalPaid(List<Order> orders) {
+        return orders.stream()
+            // filter "PAID", sum amount
+            .mapToDouble(Order::amount)
+            .sum();
+    }
+
+    public Map<String, List<Order>> byCustomer(
+            List<Order> orders) {
+        return orders.stream()
+            .collect(Collectors.groupingBy(
+                Order::customer));
+    }
+
+    public Optional<Order> highestValue(
+            List<Order> orders) {
+        return orders.stream()
+            .max(Comparator.comparing(
+                Order::amount));
+    }
+}
+```
+
+:: right ::
+
+```java
+public class OrderProcessor {
+
+    public String processOrder(Order o)
+            throws InterruptedException {
+        Thread.sleep(200); // pretend this is slow I/O
+        return "Order " + o.id() + " for "
+             + o.customer() + " processed";
+    }
+
+    public List<String> processAll(
+            List<Order> orders) throws Exception {
+        ExecutorService pool =
+            Executors.newFixedThreadPool(4);
+        List<Future<String>> futures = new ArrayList<>();
+
+        for (Order o : orders) {
+            futures.add(pool.submit(
+                () -> processOrder(o)));
+        }
+
+        List<String> results = new ArrayList<>();
+        for (Future<String> f : futures) {
+            results.add(f.get());
+        }
+        pool.shutdown();
+        return results;
+    }
+}
+```
+
+---
+
 ## Bonus Challenges
 
 - Replace `Future` with `CompletableFuture.supplyAsync(...)`, chaining `.thenApply()` to format each order's result before collecting them all with `.join()`.
