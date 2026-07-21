@@ -4,7 +4,9 @@ Course materials of the HSBC Graduate Training 2026 in Xi'an.
 
 # Quiz
 
-- **Quiz on Linux: https://test.neueda.com/test/HSBC2026EngineeringLinuxSQL**
+- Quiz on Linux: https://test.neueda.com/test/HSBC2026EngineeringLinuxSQL
+- ** Quiz on Java: https://test.neueda.com/test/HSBC2026EngineeringJavaProgrammingXian**
+
 
 # Day to day schedule
 
