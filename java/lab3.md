@@ -9,7 +9,7 @@ It's fine to skip the bonus challenges if you run out of time — a working stre
 
 ---
 
-## Part 1 — The `Order` Record (10 min)
+## Part 1 — The `Order` Record 
 
 Declare a `record`:
 
@@ -30,7 +30,7 @@ where `status` is either `"PAID"` or `"PENDING"`.
 
 ---
 
-## Part 2 — Streaming Analytics (20 min)
+## Part 2 — Streaming Analytics
 
 Create a class `OrderAnalytics` with these methods, each implemented as a **single stream pipeline** (no manual loops):
 
@@ -47,7 +47,7 @@ Create a class `OrderAnalytics` with these methods, each implemented as a **sing
 
 ---
 
-## Part 3 — Concurrent Processing (25 min)
+## Part 3 — Concurrent Processing 
 
 Create a class `OrderProcessor` with:
 
@@ -69,7 +69,7 @@ Create a class `OrderProcessor` with:
 
 ---
 
-## Part 4 — Testing It (15 min)
+## Part 4 — Testing It
 
 Write JUnit 5 tests (in a `OrderAnalyticsTest` class, with a `@BeforeEach` that builds a small fixed list of sample orders):
 
