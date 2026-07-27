@@ -13,6 +13,7 @@ Project briefing slides: https://slides.tomdev.it/project-guidelines/
 - Quiz on Linux: https://test.neueda.com/test/HSBC2026EngineeringLinuxSQL
 - Quiz on Java: https://test.neueda.com/test/HSBC2026EngineeringJavaProgrammingXian
 - Quiz on CI/CD: https://test.neueda.com/test/HSBC2026EngineeringRestCICDXian
+- ➤🟥 **Quiz on Web development: https://test.neueda.com/test/HSBC2026EngineeringWebDevelopmentXian_zh**
 
 # Day to day schedule
 
