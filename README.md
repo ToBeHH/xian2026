@@ -13,7 +13,7 @@ Project briefing slides: https://slides.tomdev.it/project-guidelines/
 - Quiz on Linux: https://test.neueda.com/test/HSBC2026EngineeringLinuxSQL
 - Quiz on Java: https://test.neueda.com/test/HSBC2026EngineeringJavaProgrammingXian
 - Quiz on CI/CD: https://test.neueda.com/test/HSBC2026EngineeringRestCICDXian
-- ➤🟥 **Quiz on Web development: https://test.neueda.com/test/HSBC2026EngineeringWebDevelopmentXian_zh**
+- Quiz on Web development: https://test.neueda.com/test/HSBC2026EngineeringWebDevelopmentXian_zh
 
 # Day to day schedule
 
@@ -21,14 +21,12 @@ Project briefing slides: https://slides.tomdev.it/project-guidelines/
 - Link to Neueda Website: https://learn.neueda.com/640892
 
 ## Day 9 - 23/July/2026
-- Docker: https://dh5eies8rve3a.cloudfront.net/docker/index.html#/1
-<br>
-Username: `tobias`<br>
-Password: `n3u3da!`
+- Docker: https://dh5eies8rve3a.cloudfront.net/docker/index.html
 
 ## Day 10 - 24/July/2026
 - Microservices: https://slides.tomdev.it/microservices/
 
 ## Extra
-- Debugging: https://dh5eies8rve3a.cloudfront.net/debugging/index.html#/1
-- SOLID principles: https://dh5eies8rve3a.cloudfront.net/solid/index.html#/1
+- Debugging: https://dh5eies8rve3a.cloudfront.net/debugging/index.html
+- SOLID principles: https://dh5eies8rve3a.cloudfront.net/solid/index.html
+- Public speaking: https://dh5eies8rve3a.cloudfront.net/speaking/index.html
