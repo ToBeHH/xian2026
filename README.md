@@ -21,7 +21,7 @@ Project briefing slides: https://slides.tomdev.it/project-guidelines/
 - Link to Neueda Website: https://learn.neueda.com/640892
 
 ## Day 9 - 23/July/2026
-- Docker: https://dh5eies8rve3a.cloudfront.net/docker/index.html
+- Docker: https://dh5eies8rve3a.cloudfront.net/docker/
 
 ## Day 10 - 24/July/2026
 - Microservices: https://slides.tomdev.it/microservices/
