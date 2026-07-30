@@ -8,6 +8,12 @@ Link to all the projects: https://github.com/nicktodd/program-projects/tree/xian
 
 Project briefing slides: https://slides.tomdev.it/project-guidelines/
 
+<div style="color:red; font-weight:bold">
+
+📅 Friday presentation briefing: https://slides.tomdev.it/room-assignments/ 
+
+</div>
+
 # Quiz
 
 - Quiz on Linux: https://test.neueda.com/test/HSBC2026EngineeringLinuxSQL
